@@ -26,10 +26,7 @@ const config = {
         enforce: 'pre',
         exclude: [
           path.resolve(__dirname, '../node_module')
-        ],
-        options: {
-          formatter: require('eslint-friendly-formatter')
-        }
+        ]
       },
       {
         test: /\.(js|jsx)$/,
